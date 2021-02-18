@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta name="autor" content="Lara Medić">
   <meta name="datum" content="15.02.2021">
-  <link rel="stylesheet" href="mystyle.css">
-  <script type="text/javascript" src="message.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -19,18 +19,17 @@
   </div>
 
   <input type="text" id="unos" placeholder="Insert product title" onfocus="this.value=''" required>
-  <button onclick="addProduct()" type="button" class="button">Add product</button>
+  <button onclick="countItem();addProduct();" type="button" class="button">Add product</button>
 
   <br><br>
 
-  <label for="numProd" id="numProd">Number of products: <script>
-      itemCount();
-    </script> </label>
+  <label for="numProd" id="numProd">Number of products: <a id="clicks">0</a></label>
 
-  <a href="#" id="remove" onclick="removeProducts()">Remove all products</a>
+  <a href="#" id="remove" onclick="removeProduct()">Remove all products</a>
 
-  <ul id="lista" class="posLista">
-  </ul>
+  <div id="results" class="resultWindow">
+    <ul id="lista" class="posLista"></ul>
+  </div>
 
 </body>
 
