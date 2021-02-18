@@ -17,10 +17,9 @@
 
       function countItems() {
         var ul = document.getElementById("unos");
-        var i = 0,
-          itemCount = 0;
+        var i = 0;
+        itemCount = 0;
         while (ul.getElementsByTagName('li')[i++]) itemCount++;
         document.write(itemCount);
       }
-
 </script>
