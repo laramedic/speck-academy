@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="autor" content="Lara Medić">
     <meta name="datum" content="15.02.2021">
+    <link rel="stylesheet" href="mystyle.css">
 
     <style>
       body {
