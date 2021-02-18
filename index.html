@@ -9,25 +9,26 @@
     <link rel="stylesheet" href="mystyle.css">
     <script type="text/javascript" src="message.js"></script>    
   </head>
-
-  <body>
-
-    <h1>Products App</h1>
-
+  
+ <body>
+     
+	<h1>Products App</h1>
+    
     <div id="prodTitle">
       <p>Product title:</p>
     </div>
-
-    <input type="text" id="unos" placeholder="Insert product title" onfocus="this.value=''" required>
-    <button onclick="addProduct()" type="button" class="button">Add product</button>
-
-    <br><br>
-
-    <label for="numProd" id="numProd">Number of products: <script>countItems()</script></label>
-    <a href="#" id="remove" onclick="removeProducts()">Remove all products</a>
-
-    <ul id="lista">
-    </ul>
-
-  </body>
+                              
+	  <input type="text" id="unos" placeholder="Insert product title" onfocus="this.value=''" required>                       
+	  <button onclick="addProduct()" type="button" class="button">Add product</button>
+      
+	 <br><br>
+  
+	  <label for="numProd" id="numProd">Number of products: <script>countItems();</script>        </label>
+    
+      <a href="#" id="remove" onclick="removeProducts()">Remove all products</a>      
+     
+	  <ul id="lista" class="posLista">
+	  </ul>
+                  
+ </body>
 </html>
