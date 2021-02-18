@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="autor" content="Lara Medić">
   <meta name="datum" content="15.02.2021">
-  <link rel="stylesheet" href="mtyle.css">
+  <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="script.js"></script>
 </head>
 <style>
